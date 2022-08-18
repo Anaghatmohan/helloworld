@@ -1,0 +1,17 @@
+indian = ['a','b','c']
+italian = ['f','g','h']
+Malabar = ['i','k','j']
+
+item = input("Enter the item \n")
+item1 = item.lower()
+if item1 in indian :
+    print ("Indian food \n")
+
+elif item1 in italian:
+    print("Italian food \n")
+
+elif item1 in Malabar:
+    print("Malabar food")
+
+else:
+    print("Item not in the list")
